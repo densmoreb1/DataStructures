@@ -1,15 +1,13 @@
 # Queues
 * Big O Notation
 * How queues work?
-* Code
-* Problem
+* Example code
+* Sample problems
 
 ## Big O Notation
 Before we go over queues, we need to understand the Big O
 
-The big o referes to how long a function takes to complete on the amount of data given. 
-
-The performance of an algorithim.
+The big o referes to how long a function takes to complete on the amount of data given. Or the performance of an algorithim. It is represented as "O(n)" n being the units of time.
 
 Each algorithim can be graphed to represent how long it would take.
 
@@ -29,4 +27,24 @@ So a loop inside of a loop would be O(n) inside of O(n) which would be O(n)^2
 Queues are like picking a ticket at the DMV and waiting your turn to be next in line.
 ![](images/90.jpeg)
 
-When something is added to a queue, it is added to the end of the line waiting it's turn to be reminded that they forgot some documents they needed to take the driver's ed test
+When something is added to a queue, it is added to the end of the line waiting it's turn just to be reminded that they forgot some documents they needed to take the driver's ed test. 
+
+It can also be thought as "First In First Out".
+
+## Using code to represent a queue
+`x = []`
+
+In python, this is how you represent a list. We will treat this list as a queue. 
+
+### Enqueue
+When inserting into a queue, the value always goes at the end of the list. 
+
+`x.append(value)`
+
+Appending will always go to the end of the list.
+
+What is the performance when inserting into a queue?
+
+O(1) because the end is always known
+
+### Dequeue
