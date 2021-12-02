@@ -15,3 +15,14 @@ A linked list always knows where each item is by using addresses or pointers to 
 ## Using code to represent a linked list
 A linked list is constructed by using an object or class. A couple of things must be in the constructer, a head, a tail, and a node. The node must also have their own constructer which includes the data, two pointers, next and previous.
 
+![](images/linked.jpeg)
+
+A list of values, but constructed as nodes with a previous, next, head, and tail. 
+
+In reality it may look like this.
+![](images/view.png)
+
+The values are not in a perfect list. The previous and next addresses keep track of where things are.
+
+In order to keep everything addressed correctly, when inserting or deleting the previous and next needs to be adjusted for the given node.
+

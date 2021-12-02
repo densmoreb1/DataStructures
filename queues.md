@@ -70,3 +70,4 @@ O(n) because when the first item is dequeued, the rest of the list needs to be s
 <br/>
 
 ## Sample problems
+[Problems](queue_prove.py)
