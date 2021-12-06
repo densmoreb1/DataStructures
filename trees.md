@@ -5,6 +5,8 @@
 * Sample problems
 
 ## Recursion
+![](images/giphy.gif)
+
 Recusion is like living the same day over and over.
 
 ![](images/ground_hod.jpg)

@@ -26,7 +26,7 @@ So a loop inside of a loop would be O(n) inside of O(n) which would be O(n)^2
 <br/>
 
 ## How do queues work?
-Queues are like picking a ticket at the DMV and waiting your turn to be next in line.
+Queues are like picking a ticket at the DMV and waiting your turn to be next in line. The people are physically waiting in line to be next.
 ![](images/90.jpeg)
 
 When something is added to a queue, it is added to the end of the line waiting it's turn just to be reminded that they forgot some documents they needed to take the driver's ed test. 
